@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background: rgb(27, 25, 25);
+}
+
+.navbar{
+    padding: 1em 3em;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(38, 121, 160);
+    color: white;
+    border-bottom: 2px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+p{
+    font-size: 2em;
+}
+
+.search-section{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    outline: none;
+    width: 100%;
+    border: none;
+}
+
+input,button{
+    height: 100%;
+}
+
+input{
+    width: 70%;
+    outline: none;
+    font-size: medium;
+    border: none;
+    padding: 0 1em;
+    color: rgb(121, 121, 121);
+}
+
+button{
+    width: 30%;
+    font-size: small;
+    background: rgb(67, 149, 187);
+    transition: background 250ms;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 90%;
+    margin: 1em auto;
+}
+
+.images-section{
+    columns: 3;
+    column-gap: .5em;
+    margin: 1em auto;
+}
+
+button:hover{
+    background: rgb(36, 109, 143);
+}
